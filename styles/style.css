@@ -1,1 +1,183 @@
 /* место для вашего кода */
+
+body {
+    height: 2844px;
+    background: #FFF;
+    }
+
+.fixed__size {
+    width: 1440px;
+    margin: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr;
+    align-items: center;
+    height: 109px;
+    margin: 92px 49px 92px 51px;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header__menu {
+    line-height: normal;
+        height: 23px;
+}
+
+.header__link {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+.header__links-list {
+    display: flex;
+    column-gap: 13px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.header__links-list-item {
+    position: relative;
+}
+
+.header__links-list-item.header__link_active .header__link {
+    border-bottom: none;
+
+}
+
+.header__links-list-item.header__links-list-item_no-bullit {
+    list-style-type: none;
+}
+
+
+
+.header__logo {
+   height: 105px;
+}
+
+.header__logo-image {
+    display: block;
+    
+}
+
+
+
+
+
+.address {
+    line-height: 24.3px; 
+    
+}
+
+.header__address {
+    margin-left: auto;
+    display: block;
+    max-width: 240px;
+
+}
+
+
+
+
+.cover {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 757px;
+    color: #FFF;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 165px;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0.6000000238418579;
+    background: #000;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+}
+
+.cover__title {
+    position: relative;
+    z-index: 2;
+    font-size: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    
+}
+
+
+.aligned-text {
+    display: block;
+    width: 1340px;
+    text-align: left;
+    margin: 0px 50px;
+    line-height: 115%; /* 115px */
+}
+
+.aligned-text_center {
+    display: block;
+    width: 1280px;
+    text-align: center;
+    margin: 20px 110px 20px 50px;
+    line-height: 100%; 
+}
+
+.aligned-text_right {
+    display: block;
+    width: 1340px;
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 100%;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0px;
+}
+
+.cover__description {
+    position: relative;
+    z-index: 2;
+    margin-top: 135px;
+    margin-left: 422px;
+}
+
+.cover__description-text {
+    display: inline-block;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    word-spacing: 10px; /*подобрать*/
+}
+
+
+.bet-button {
+    all: unset;
+    height: 52px;
+    padding: 12px 32px;
+    border: 1px solid #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    margin-left: 78px;
+    box-sizing: border-box;
+   
+}
